@@ -1,9 +1,11 @@
 <html>
     <head>
-        <title>Daftar Member</title>
+        <title>Pertakaan Login </title>
     </head>
     <body>
-        <h1>Hai.. kamu mau menjadi member?</h1>
-        <p1>Isikan data diri kamu dulu ya agar kami kenal dengan member kami</p1> 
+        <h1>Selamat datang di Sistem Informasi Perpustakaan</datagrid></h1>
+        <p1>Ini adalah layanan perpustakaan digital masa kini
+            
+        </p> 
     </body>
 </html>
