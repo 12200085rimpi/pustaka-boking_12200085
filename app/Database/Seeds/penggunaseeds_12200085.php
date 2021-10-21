@@ -2,10 +2,10 @@
 
 namespace App\Database\Seeds;
 
-use App\Models\Pengguna;
+use App\Models\Pengguna12200085;
 use CodeIgniter\Database\Seeder;
 
-class PenggunaSeeder extends Seeder
+class PenggunaSeeder12200085 extends Seeder
 {
     public function run()
     {
@@ -24,7 +24,7 @@ class PenggunaSeeder extends Seeder
             ]
         ];
 
-        $p = new Pengguna();
+        $p = new Pengguna12200085();
         $p->insertBatch($data);
     }
 }

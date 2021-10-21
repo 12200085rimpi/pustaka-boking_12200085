@@ -3,7 +3,7 @@
 namespace Config;
 
 use CodeIgniter\Database\Config;
-
+use CodeIgniter\locale_set_default;
 /**
  * Database Configuration
  */
