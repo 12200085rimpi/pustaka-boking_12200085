@@ -19,7 +19,7 @@ use Psr\Log\LoggerInterface;
  *
  * For security be sure to declare any new methods as protected or private.
  */
-class BaseController extends Controllers
+class BaseController extends Controller
 {
     /**
      * Instance of the main Request object.
@@ -36,12 +36,13 @@ class BaseController extends Controllers
      * @var array
      */
     protected $helpers = [];
-
+    
     /**
      * 
-     * @var session
+     * @var Session
      */
     protected $session;
+    
     /**
      * Constructor.
      */
